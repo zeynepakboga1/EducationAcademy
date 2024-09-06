@@ -1,0 +1,7 @@
+renk paletleri:
+#6C8D53 haki koyu
+#86A65B bir tık açık 
+#AFBD8D bir tık daha 
+#E9DCD6 pudra
+#F2F2F2 beyaz
+
