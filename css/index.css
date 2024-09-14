@@ -2,43 +2,36 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: sans-serif;
+}
 
 header.header {
+  height: 100px;
+  width: 100%;
   display: flex; /* Flexbox özelliği */
   justify-content: space-between; /* Elemanlar arasındaki boşluğu ayarla */
   align-items: center; /* Elemanları dikeyde ortala */
-  background-color: #f0f0f0; /* Kapsayıcı arka plan rengi */
-  padding: 10px; /* Kapsayıcıya iç boşluk */
+  background-color: #dcdcdc; /* Kapsayıcı arka plan rengi */
+  padding: 0 5px; /* Kapsayıcıya iç boşluk */
 }
-header.logo-div {
-  display: flex;
-  justify-content: right;
-  align-items: center;
-  height: 55rem;
-  width: 20vh;
-}
-
-header.navigation-links {
-  display: flex;
-  justify-content: r;
-  width: 40vh;
-}
-
-header.navigation-links ul {
-  list-style: none;
-  position: relative;
-}
-
-header nav ul li {
+.logo-div img {
+  height: 55px;
+  margin-right: 5px;
   display: block;
-  padding: 30px;
-  float: right;
-  font-size: 15px;
 }
 
-header nav ul li a {
-  font-size: 15px;
-  font-weight: 100;
-  text-transform: uppercase;
-  color: rgba(5, 6, 7, 0.5);
+.logo-div,
+.logo-title {
+  color: black;
+  font-size: 30px;
+}
+.logo-title span {
+  color: #556b2f;
+}
+.navigation-links nav ul {
+  list-style: none;
+  display: flex;
+}
+.navigation-links nav ul li {
 }
