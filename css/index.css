@@ -7,31 +7,62 @@ body {
 }
 
 header.header {
-  height: 100px;
+  height: 90px;
   width: 100%;
   display: flex; /* Flexbox özelliği */
-  justify-content: space-between; /* Elemanlar arasındaki boşluğu ayarla */
   align-items: center; /* Elemanları dikeyde ortala */
-  background-color: #dcdcdc; /* Kapsayıcı arka plan rengi */
-  padding: 0 5px; /* Kapsayıcıya iç boşluk */
+  justify-content: space-between; /* Elemanlar arasındaki boşluğu ayarla */
+  background-color: #a9a9a9; /* Kapsayıcı arka plan rengi */
+  padding: 0 0px; /* Kapsayıcıya iç boşluk */
 }
 .logo-div img {
   height: 55px;
   margin-right: 5px;
-  display: block;
 }
 
 .logo-div,
 .logo-title {
   color: black;
-  font-size: 30px;
+  font-size: 26px;
 }
 .logo-title span {
   color: #556b2f;
 }
-.navigation-links nav ul {
+
+.navigation-links ul {
   list-style: none;
   display: flex;
 }
-.navigation-links nav ul li {
+.navigation-links ul li {
+  padding: 10px 30px;
+  position: relative;
+}
+.navigation-links ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  transition: all 0.3s;
+}
+.navigation-links ul li a:hover {
+  color: #556b2f;
+}
+.dropdown-menu {
+  display: none;
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #a9a9a9;
+}
+.dropdown-menu ul {
+  display: block;
+  margin: 5px;
+}
+
+.dropdown-menu ul li {
+  width: 150px;
+  padding: 10px;
 }
