@@ -23,23 +23,46 @@
         <a href="#"><img src="images/logo.png" alt="logo" /></a>
         <h1 class="logo-title">Education <span>Academy.</span></h1>
       </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search..." class="search-input" />
+        <button class="search-btn"><i class="fa fa-search"></i></button>
+      </div>
 
-      <nav class="navigation-links">
-        <ul>
-          <li>
+      <nav class="navbar">
+        <ul class="menu">
+          <li class="dropdown">
             <a href="#">Educations<i class="fa-solid fa-caret-down"></i></a>
-            <div class="dropdown-menu">
-              <ul>
-                <li>Basic IT Trainings</li>
-                <li>Advanced Informatics Trainings</li>
-              </ul>
-            </div>
+
+            <ul class="dropdown-menu">
+              <li class="dropdown-submenu">
+                <a href="#">Basic IT Trainings</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Windows</a></li>
+                  <li><a href="#">Word</a></li>
+                  <li><a href="#">Excel</a></li>
+                  <li><a href="#">PowerPoint</a></li>
+                </ul>
+              </li>
+
+              <li class="dropdown-submenu">
+                <a href="#">Advanced Informatics Trainings</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">JavaScript</a></li>
+                </ul>
+              </li>
+            </ul>
           </li>
 
           <li><a href="#"> Exercises</a></li>
           <li><a href="#"> Certificates</a></li>
         </ul>
       </nav>
+      <div class="auth-buttons">
+        <a href="#" class="btn login-btn">Login</a>
+        <a href="#" class="btn signup-btn">Signup</a>
+      </div>
     </header>
   </body>
 </html>
